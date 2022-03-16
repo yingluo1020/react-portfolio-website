@@ -1,0 +1,29 @@
+header {
+    height: 40vh;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.cta {
+    margin: 2.5rem auto;
+    display: flex;
+    gap:1.2rem;
+    justify-content: center;
+}
+
+.avatar {
+    background: linear-gradient(var(--color-primary),transparent) ; 
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    border-radius: 12rem 12rem 0 0 ;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
